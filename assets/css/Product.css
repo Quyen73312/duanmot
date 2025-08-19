@@ -1,0 +1,151 @@
+.content {
+    background-color: var(--color-container);
+    padding: 30px 80px;
+}
+
+
+.product-item_img-box:hover .product-item_icon {
+    transform: scale(1);
+    transition: all ease 0.3s;
+}
+
+.product-item_icon:hover {
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+
+.header-content-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.selected-box {
+    text-align: right;
+}
+
+.selected-box .select {
+    width: 200px;
+    height: 30px;
+    padding-left: 5px;
+    color: var(--color-text);
+}
+
+.selected-box .select:focus {
+    outline: none;
+    cursor: pointer;
+}
+
+.icon-open-filer-all {
+    cursor: pointer;
+}
+
+/* ------- */
+
+
+.overlay-content {
+    margin-top: 40px;
+}
+
+/* Position the content inside the overlay */
+
+/* The navigation links inside the overlay */
+
+/* When you mouse over the navigation links, change their color */
+
+/* Position the close button (top right corner) */
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+
+.accordion {
+    color: #555;
+    cursor: pointer;
+    padding: 10px 20px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: 0.9rem;
+    background-color: #ffff;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    /* display: none; */
+    font-weight: normal;
+    max-height: 200px;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    margin: 0px 0px 0px 20px;
+}
+
+.panel ul {
+    list-style-type: none;
+}
+
+.panel ul a {
+    text-decoration: none;
+    color: var(--color-text);
+    margin-bottom: 15px;
+}
+
+.panel ul li {
+    margin-bottom: 15px;
+}
+
+.panel ul a i {
+    margin-right: 10px;
+}
+
+.accordion:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 0.5rem;
+    color: #777;
+    float: right;
+    margin: 3px 10px 0px 0px;
+}
+
+.active:after {
+    content: "\2796";
+}
+
+
+/* -----Colors */
+.color-blue {
+    background-color: var(--color-primary);
+}
+
+.color-red {
+    background-color: red;
+}
+
+.color-pink {
+    background-color: pink;
+}
+
+.color-gray {
+    background-color: gray;
+}
+
+.color-orange {
+    background-color: rgb(241, 100, 18);
+}
+
+.filter-list-color {
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.filter-list-color li a {
+    padding: 5px 15px ;
+    border-radius: 50px;
+}
+

@@ -1,0 +1,117 @@
+    .foot{
+   width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+
+.gthieu{
+    width: 360px;
+    height: 350px;
+    padding: 30px;
+}
+.gthieu p{
+    line-height: 1.8;
+}
+.footer_gt{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.diaChi{
+    width: 360px;
+    height: 350px;
+    padding: 30px;
+}
+.diaChi p{
+    line-height: 1.8;
+}
+.menu{
+    width: 360px;
+    height: 350px;
+    padding: 30px;
+}
+.menu p {
+    text-align: center;
+    line-height: 1.8;
+}
+.menu p a{
+    color: white;
+}
+.mxh2{
+    width: 360px;
+    height: 350px;
+    padding: 30px;
+}
+
+.ft-mxh{
+    display: flex;
+    justify-content: center;
+   gap: 10px;
+   padding: 20px;
+
+}
+.line3{
+    border: 1px solid white;
+}
+.foot2{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.foot2 p{
+    color: white;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.thanhtoan img{
+    width: 100px;
+    height: 50px;
+}
+.line4{
+    border: 1px solid;
+    width: 20%;
+    margin-left: 40%;
+    margin-bottom: 10px;
+    
+}
+.mxh{
+    width: 720px;
+    background-color: #EAE8E8;
+    height: 300px;
+    padding: 30px;
+}
+.fb{
+   display: flex;
+   gap: 10px;
+   padding: 20px;
+}
+.fb1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(0, 76, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tw{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #509EF7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #CC4732;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

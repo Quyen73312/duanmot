@@ -1,0 +1,43 @@
+.content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    margin-bottom: 60px;
+}
+
+.content__form-bag {
+    margin-left: 70px;
+}
+
+.content__form-bag-title {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.input__bag {
+    margin-bottom: 30px;
+}
+
+.input__bag textarea {
+    width: 450px;
+    height: 80px;
+    border: rgb(141, 139, 139) solid 1px;
+    padding-left: 10px;
+}
+
+.input__bag .contact__input {
+    width: 450px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(141, 139, 139);
+    font-size: 15px;
+}
+
+.contact__btn {
+    background-color: var(--color-primary);
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+}
+
