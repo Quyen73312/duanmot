@@ -2,14 +2,13 @@
 require_once 'connect.php';
 
 function getCateAll() {
-    $conn = connect(); // luôn gọi hàm connect()
+    $conn = connect(); 
     $stmt = $conn->prepare("SELECT * FROM category");
     $stmt->execute();
     return $stmt->fetchAll(PDO::FETCH_ASSOC);
 }
 
 
-// Lấy dữ liệu cho biểu đồ
 function cateChart() {
     $conn = connect();
     $stmt = $conn->prepare("
@@ -30,7 +29,7 @@ function insertCate($name) {
     $stmt->execute();
 }
 
-// Cập nhật danh mục
+
 function updateCate($name, $id) {
     $conn = connect();
     $stmt = $conn->prepare("UPDATE category SET dm_name = :name WHERE dm_id = :id");
@@ -39,7 +38,6 @@ function updateCate($name, $id) {
     $stmt->execute();
 }
 
-// Lấy danh mục theo ID
 function getFind($id) {
     $conn = connect();
     $stmt = $conn->prepare("SELECT * FROM category WHERE dm_id = :id");
